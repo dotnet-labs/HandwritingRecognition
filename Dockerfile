@@ -1,5 +1,5 @@
 # NuGet restore
-FROM mcr.microsoft.com/dotnet/core/sdk:3.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
 COPY *.sln ./
 COPY HandwritingRecognition/*.csproj HandwritingRecognition/
@@ -17,7 +17,7 @@ WORKDIR /src/HandwritingRecognition
 RUN dotnet publish -c Release -o /src/publish
 RUN cp ./MLModel.zip /src/publish
 
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.0 AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS runtime
 # install System.Drawing native dependencies
 RUN apt-get update \
     && apt-get install -y --allow-unauthenticated \
