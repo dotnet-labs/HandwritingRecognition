@@ -1,5 +1,7 @@
 # Handwriting Recognition using ML.NET
 
+<a href='https://ko-fi.com/changhuixu' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 ## [Demo Website](https://ml-recognition.herokuapp.com/)
 
 ## [Medium Article](https://codeburst.io/handwriting-recognition-using-ml-net-3ce23a7369af)
@@ -13,3 +15,9 @@ In this blog post, we will make a web application to recognize handwriting numbe
 ## Note
 
 This solution contains two ML.NET models. One is about Handwriting Recognition, the other one is about taxi fare prediction.
+
+## License
+
+Feel free to use the code in this repository as it is under MIT license.
+
+<a href='https://ko-fi.com/changhuixu' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
