@@ -1,7 +1,6 @@
-﻿namespace TaxiFareML.Model
+﻿namespace TaxiFareML.Model;
+
+public class TaxiFareModel
 {
-    public class TaxiFareModel
-    {
-        public const string Name = @"TaxiFareModel";
-    }
+    public const string Name = "TaxiFareModel";
 }

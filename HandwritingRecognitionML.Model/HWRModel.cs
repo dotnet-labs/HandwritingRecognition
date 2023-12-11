@@ -1,7 +1,6 @@
-﻿namespace HandwritingRecognitionML.Model
+﻿namespace HandwritingRecognitionML.Model;
+
+public class HwrModel
 {
-    public class HWRModel
-    {
-        public const string Name = @"HWR";
-    }
+    public const string Name = "HWR";
 }

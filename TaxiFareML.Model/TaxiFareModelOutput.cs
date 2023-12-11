@@ -2,11 +2,10 @@
 
 using Microsoft.ML.Data;
 
-namespace TaxiFareML.Model
+namespace TaxiFareML.Model;
+
+public class TaxiFareModelOutput
 {
-    public class TaxiFareModelOutput
-    {
-        [ColumnName("Score")]
-        public float FareAmount { get; set; }
-    }
+    [ColumnName("Score")]
+    public float FareAmount { get; set; }
 }
